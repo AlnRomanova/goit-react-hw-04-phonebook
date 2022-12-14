@@ -13,3 +13,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+p, h1, h2 {
+  padding: 0;
+  margin: 0;
+
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style-type: disc;
+
+}
+
+.container{
+
+  border-radius: 10px;
+  padding: 30px 30px;
+
+  gap: 20px;
+  width: 420px;
+  margin: auto;
+  background: white;
+  background-color: rgb(240, 244, 249);;
+  border: 2px solid rgb(150, 196, 245);
+}
+
+
+input {
+  outline: transparent;
+}

@@ -1,0 +1,56 @@
+.form {
+  margin-top: 15px;
+  width: 300px;
+
+}
+
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  margin-bottom: 15px;
+
+}
+
+.formInput {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 4px;
+
+  font-size: 15px;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+
+
+  border: 1px solid rgb(153, 198, 246);
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.formInput:hover, .formInput:focus {
+  border: 2px solid rgb(150, 196, 245);
+}
+
+.btn {
+  margin-bottom: 30px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 8px 8px;
+  border: 1px solid rgb(153, 198, 246);
+  cursor: pointer;
+}
+
+
+.btn:hover, .btn:focus {
+  background-color: rgb(104, 172, 245);
+  color: white;
+}
+

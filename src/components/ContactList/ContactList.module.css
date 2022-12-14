@@ -1,0 +1,33 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactsItem {
+
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.contactsName {
+  margin: auto;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.contactsBtn {
+  margin-top: 7px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 4px 4px;
+  border: 1px solid rgb(153, 198, 246);
+  cursor: pointer;
+}
+
+.contactsBtn:hover,
+.contactsBtn:focus {
+  background-color: rgb(104, 172, 245);
+  color: white;
+}
