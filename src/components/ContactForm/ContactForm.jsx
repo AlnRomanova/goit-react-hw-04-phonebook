@@ -25,7 +25,7 @@ const ContactForm = ({ addContact }) => {
 
   const handlerSubmit = e => {
     e.preventDefault();
-    addContact({ name: name, number: number });
+    addContact({ name, number });
     setName('');
     setNumber('');
   };
